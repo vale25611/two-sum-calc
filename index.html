@@ -13,28 +13,27 @@
             <p > Build your own array, pick a target, and watch the javascript algorithm solve it. </p>
         </header>
 
-        <main class = "controls">
-            <div>
-                 <h2 class="controls-heading">Array controls</h2>
+        <div class = "controls">
+            <h2 class="controls-heading">Array controls</h2>
 
-                <form class="control-row">
-                <label for="push-input">Number to add:</label>
-                <input
-                    type="number"
-                    id="push-input"
-                    name="push-input"
-                    required
-                    inputmode="numeric"
-                    >
-                <button type="submit" class="btn btn-push">Push ➕</button>
-                </form>
-                <p class="help-text">Adds this number to the end of the array.</p>
+            <form class="control-row">
+            <label for="push-input">Number to add:</label>
+            <input
+                type="number"
+                id="push-input"
+                name="push-input"
+                required
+                inputmode="numeric"
+                >
+            <button type="submit" class="btn btn-push">Push ➕</button>
+            </form>
+            <p class="help-text">Adds this number to the end of the array.</p>
 
-                <div class="control-row">
-                <button type="button" id="pop-btn">Pop Last Element ➖</button>
-                </div>
+            <div class="control-row">
+            <button type="button" id="pop-btn">Pop Last Element ➖</button>
+            </div>
 
-                <div class="control-row">
+            <div class="control-row">
                 <label for="target-input">Target value:</label>
                 <input
                     type="number"
@@ -42,21 +41,26 @@
                     name="target-input"
                     inputmode="numeric"
                     value="0" >
-                </div>
-                
-            
             </div>
 
-        </main>
 
+        </div>
+        <div class="array">
+            <h2 class="array-heading">Your Array</h2>
+            <div class="array-display" >
+            <p class="empty-msg">Array is empty. Push a number to get started!</p>
+            </div>
+        </div>
 
-
-
-
-
-
+        <div class="result">
+            <h2 class="result-heading">Result</h2>
+            <div class="result-box"> Add at least two numbers to check for a Two Sum match. </div>
+        </div>
+        
 
     </div>
+
+    <script src="script.js"></script>
     
 </body>
 </html>
