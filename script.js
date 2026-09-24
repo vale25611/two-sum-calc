@@ -16,3 +16,12 @@ function twoSum(nums, targetValue) {
 
   return null; // no two numbers add up to the target
 }
+
+// DOM REF
+
+const pushForm = document.getElementById("push-form");
+const pushInput = document.getElementById("push-input");
+const popBtn = document.getElementById("pop-btn");
+const targetInput = document.getElementById("target-input");
+const arrayDisplay = document.getElementById("array-display");
+const resultBox = document.getElementById("result-box");
