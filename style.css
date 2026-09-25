@@ -1,0 +1,89 @@
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff6e9;
+  color: #262130;
+  margin: 0;
+}
+
+.page-wrap {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #8a2be2;
+}
+
+.controls, .array-display, .result-box {
+  background-color: white;
+  border: 2px solid #8a2be2;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.control-row {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  font-size: 1em;
+  border: 2px solid #8a2be2;
+  border-radius: 6px;
+}
+
+button {
+  padding: 8px 14px;
+  font-size: 1em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #8a2be2;
+  color: white;
+}
+
+button:hover {
+  background-color: #6a1fb0;
+}
+
+.array-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.array-box {
+  background-color: #ffd580;
+  border: 2px solid #ff8c00;
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+  min-width: 50px;
+}
+
+.box-index {
+  display: block;
+  font-size: 0.7em;
+}
+
+.array-box.match {
+  background-color: #7CFC9B;
+  border-color: #1f9d4c;
+}
+
+.result-box.success {
+  background-color: #eafff1;
+  border-color: #1f9d4c;
+}
+
+.result-box.fail {
+  background-color: #fff1ea;
+  border-color: #c1440e;
+}
