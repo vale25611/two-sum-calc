@@ -87,3 +87,15 @@ button:hover {
   background-color: #fff1ea;
   border-color: #c1440e;
 }
+
+/* mobile */
+@media screen and (max-width: 500px) {
+  .control-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+}
